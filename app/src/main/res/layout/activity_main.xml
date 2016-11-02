@@ -1,46 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    tools:ignore="HardcodedText">
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/tv_msg"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
         android:text="Check out these samples and their sources for the most basic use cases."
-        android:layout_marginBottom="16dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
-    <Button
+
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/simple_three_tabs"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Simple example with three tabs" />
+        android:text="Simple example with three tabs"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/five_tabs_custom_colors"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Using custom colors and fonts" />
+        android:text="Using custom colors and fonts"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/five_tabs_changing_colors"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Five tabs with changing colors" />
+        android:text="Five tabs with changing colors"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/three_tabs_quick_return"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Three tabs with Quick Return" />
+        android:text="Three tabs with Quick Return"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
-    <Button
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/badges"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Using Badges" />
+        android:text="Using Badges"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
